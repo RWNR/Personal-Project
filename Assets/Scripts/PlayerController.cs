@@ -26,9 +26,5 @@ public class PlayerController : MonoBehaviour
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
-        if (transform.position.x < 13)
-        {
-            transform.position = new Vector3(13, transform.position.y, transform.position.z);
-        }
     }
 }
